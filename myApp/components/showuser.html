@@ -1,0 +1,21 @@
+<div>
+<h1>{{showusername}}</h1>
+
+
+
+<label><input type="checkbox" ng-model='checker' ng-change='insertData()'>Show {{checker}}</label>
+
+
+<hr/>
+<w3></w3>
+<hr/>
+
+<ul>
+<li ng-repeat='user in jsonData | limitTo:5'>
+
+<h1>{{user.id}} -- {{user.title}}</h1>
+</li>
+
+</ul>
+
+</div>
