@@ -5,7 +5,7 @@ app.get(‘/’, function (req, res,next) {
  res.redirect(‘/index.html’);
 });
 app.listen(8080, ‘localhost’);
-console.log(“MyProject Server is Listening on port 8080”);
+console.log(“Angular Server Server is Listening on port 8080”);
 /*---------Test----------*/
 
 
