@@ -1,0 +1,25 @@
+<div>
+<h1 id="sample" class="data">{{showusername}}</h1>
+
+
+<button ng-click="generateClick()" class="btn btn-primary">Random click</button>
+<h1>{{button}}</h1>
+<label><input type="checkbox" ng-model='checker' ng-change='insertData()'>Show {{checker}}</label>
+
+
+
+<hr/>
+<w3></w3>
+<hr/>
+
+<ul class="jsonout">
+<li ng-repeat='user in jsonData | limitTo:7'>
+
+<h1>{{user.id}} -- {{user.title}}</h1>
+</li>
+
+</ul>
+
+
+
+</div>

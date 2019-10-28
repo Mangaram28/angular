@@ -1,0 +1,19 @@
+<div id="buttons" ng-controller='RegisterController'>
+	<h4>{{department}}</h4>
+     <form >
+       <input type="hidden" name="id" ng-model="newcontact.id"/>
+       <label>Name</label>
+       <input type="text" name="username" ng-model="newcontact.name"/>
+       <label>Phone Number</label>
+       <input type="text" name="username" ng-model="newcontact.phonenum"/>
+       
+       <input type="button" value="save" ng-click="saveContact()"/>
+     </form>
+
+     <div ng-repeat="data in newcontact">
+         <h4>Name : {{data.name}}</h4>
+         <h4></h4>
+         
+     </div>
+
+</div>
