@@ -1,0 +1,43 @@
+@primarycolor: #FF7F50;
+@color:#af08af;
+@textcolor : blue;
+
+@ruleset:{
+  text-shadow: 2px 2px 5px grey;
+};
+
+@hoverset (){
+
+};
+
+h1 {
+   color: @primarycolor;
+}
+
+h3 {
+   color: @color;
+}
+
+#sample{
+  color:@textcolor;
+}
+
+.shower{
+   h1{
+     color:@textcolor;
+   }
+}
+
+.jsonout{
+  h1{
+    color:blue;
+    @ruleset();
+    &:hover{
+      color: lightsalmon;
+    }
+  }
+  &:hover{
+    color: crimson;
+  }
+ 
+} 
