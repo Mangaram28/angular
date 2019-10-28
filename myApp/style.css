@@ -1,0 +1,25 @@
+h1 {
+  color: #FF7F50;
+}
+h3 {
+  color: #af08af;
+}
+#sample {
+  color: blue;
+}
+.shower h1 {
+  color: blue;
+}
+.jsonout h1 {
+  color: blue;
+  text-shadow: 2px 2px 5px grey;
+}
+.jsonout h1:hover {
+  color: lightsalmon;
+}
+.jsonout:hover {
+  color: crimson;
+}
+.data{
+  color: aliceblue;
+}
